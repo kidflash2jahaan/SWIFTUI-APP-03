@@ -12,13 +12,13 @@ struct HeaderView: View {
     
     var body: some View {
         HStack {
-            Button(action: {
-                print("Information")
-            }) {
-                Image(systemName: "info.circle")
-                    .font(.system(size: 24, weight: .regular))
-            }
-            .accentColor(Color.primary)
+//            Button(action: {
+//                print("Information")
+//            }) {
+//                Image(systemName: "info.circle")
+//                    .font(.system(size: 24, weight: .regular))
+//            }
+//            .accentColor(Color.primary)
             
             Spacer()
             
