@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0F1BDFD828628EA00017ACB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1BDFD728628EA00017ACB5 /* ContentView.swift */; };
+		0F1BDFDA2862914B0017ACB5 /* HoneymoonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1BDFD92862914A0017ACB5 /* HoneymoonModel.swift */; };
+		0F1BDFDD286291D80017ACB5 /* HoneymoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1BDFDC286291D80017ACB5 /* HoneymoonData.swift */; };
+		0F1BDFE1286292E70017ACB5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1BDFE0286292E70017ACB5 /* CardView.swift */; };
 		0F91583F28628BE500039C62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F91583E28628BE500039C62 /* AppDelegate.swift */; };
 		0F91584128628BE500039C62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F91584028628BE500039C62 /* SceneDelegate.swift */; };
 		0F91584328628BE500039C62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F91584228628BE500039C62 /* ViewController.swift */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		0F1BDFD728628EA00017ACB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0F1BDFD92862914A0017ACB5 /* HoneymoonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonModel.swift; sourceTree = "<group>"; };
+		0F1BDFDC286291D80017ACB5 /* HoneymoonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneymoonData.swift; sourceTree = "<group>"; };
+		0F1BDFE0286292E70017ACB5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		0F91583B28628BE500039C62 /* Honeymoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeymoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F91583E28628BE500039C62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F91584028628BE500039C62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +47,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1BDFDB286291520017ACB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F1BDFD92862914A0017ACB5 /* HoneymoonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F1BDFDE286291DC0017ACB5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0F1BDFDC286291D80017ACB5 /* HoneymoonData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0F1BDFDF286292940017ACB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F1BDFD728628EA00017ACB5 /* ContentView.swift */,
+				0F1BDFE0286292E70017ACB5 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0F91583228628BE500039C62 = {
 			isa = PBXGroup;
 			children = (
@@ -60,10 +91,12 @@
 		0F91583D28628BE500039C62 /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				0F1BDFDF286292940017ACB5 /* Views */,
+				0F1BDFDE286291DC0017ACB5 /* Data */,
+				0F1BDFDB286291520017ACB5 /* Model */,
 				0F91585428628CF600039C62 /* Sounds */,
 				0F91583E28628BE500039C62 /* AppDelegate.swift */,
 				0F91584028628BE500039C62 /* SceneDelegate.swift */,
-				0F1BDFD728628EA00017ACB5 /* ContentView.swift */,
 				0F91585228628C7500039C62 /* Assets.xcassets */,
 				0F91584928628BE800039C62 /* LaunchScreen.storyboard */,
 				0F91584C28628BE800039C62 /* Info.plist */,
@@ -153,10 +186,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F1BDFE1286292E70017ACB5 /* CardView.swift in Sources */,
 				0F91584328628BE500039C62 /* ViewController.swift in Sources */,
 				0F91583F28628BE500039C62 /* AppDelegate.swift in Sources */,
+				0F1BDFDD286291D80017ACB5 /* HoneymoonData.swift in Sources */,
 				0F1BDFD828628EA00017ACB5 /* ContentView.swift in Sources */,
 				0F91584128628BE500039C62 /* SceneDelegate.swift in Sources */,
+				0F1BDFDA2862914B0017ACB5 /* HoneymoonModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
