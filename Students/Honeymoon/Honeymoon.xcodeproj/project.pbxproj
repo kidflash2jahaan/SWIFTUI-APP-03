@@ -23,6 +23,7 @@
 		0F91584B28628BE800039C62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F91584928628BE800039C62 /* LaunchScreen.storyboard */; };
 		0F91585328628C7500039C62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F91585228628C7500039C62 /* Assets.xcassets */; };
 		0F91585528628CF600039C62 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 0F91585428628CF600039C62 /* Sounds */; };
+		0FB6DE8E2864E59200356626 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB6DE8D2864E59200356626 /* SymbolModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		0F91584C28628BE800039C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F91585228628C7500039C62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Completed/Honeymoon/Honeymoon/Assets.xcassets; sourceTree = "<group>"; };
 		0F91585428628CF600039C62 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = ../../../Completed/Honeymoon/Honeymoon/Sounds; sourceTree = "<group>"; };
+		0FB6DE8D2864E59200356626 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +75,7 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
-		0F1BDFDF286292940017ACB5 /* Views */ = {
+		0F1BDFDF286292940017ACB5 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				0F1BDFD728628EA00017ACB5 /* ContentView.swift */,
@@ -82,7 +84,7 @@
 				0F1BDFE42863803A0017ACB5 /* FooterView.swift */,
 				0F1BDFEB286398C40017ACB5 /* GuideView.swift */,
 			);
-			path = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
 		0F1BDFE62863841F0017ACB5 /* Component */ = {
@@ -113,8 +115,9 @@
 		0F91583D28628BE500039C62 /* Honeymoon */ = {
 			isa = PBXGroup;
 			children = (
+				0FB6DE8C2864E54000356626 /* Modifier */,
+				0F1BDFDF286292940017ACB5 /* View */,
 				0F1BDFE62863841F0017ACB5 /* Component */,
-				0F1BDFDF286292940017ACB5 /* Views */,
 				0F1BDFDE286291DC0017ACB5 /* Data */,
 				0F1BDFDB286291520017ACB5 /* Model */,
 				0F91585428628CF600039C62 /* Sounds */,
@@ -135,6 +138,14 @@
 				0F91584428628BE500039C62 /* Main.storyboard */,
 			);
 			path = Generated;
+			sourceTree = "<group>";
+		};
+		0FB6DE8C2864E54000356626 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				0FB6DE8D2864E59200356626 /* SymbolModifier.swift */,
+			);
+			path = Modifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 				0F91583F28628BE500039C62 /* AppDelegate.swift in Sources */,
 				0F1BDFEC286398C40017ACB5 /* GuideView.swift in Sources */,
 				0F1BDFE52863803A0017ACB5 /* FooterView.swift in Sources */,
+				0FB6DE8E2864E59200356626 /* SymbolModifier.swift in Sources */,
 				0F1BDFDD286291D80017ACB5 /* HoneymoonData.swift in Sources */,
 				0F1BDFD828628EA00017ACB5 /* ContentView.swift in Sources */,
 				0F1BDFE8286384410017ACB5 /* HeaderComponent.swift in Sources */,
